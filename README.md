@@ -3,7 +3,6 @@
 \
 Программа осуществляет кодирование и декодирование
 # Параметры запуска
-***Кодирование***: node huffman code input.txt\
-(исходная строка берется из argv[3], результат записывается в output.txt, таблица кодов записывается в table.txt)\
-***Декодирование***: node huffman decode output.txt table.txt\
-(закодированная строка берется из argv[3], таблица кодов берётся из argv[4], декодированный результат записывается в result.txt)
+***Кодирование***: node huffman code input.txt output.txt
+
+***Декодирование***: node huffman decode output.txt table.txt result.txt
