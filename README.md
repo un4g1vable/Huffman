@@ -3,6 +3,6 @@
 \
 Программа осуществляет кодирование и декодирование
 # Параметры запуска
-***Кодирование***: node huffman code input.txt output.txt
+***Кодирование***: node huffman code input.txt table.txt output.txt 
 
 ***Декодирование***: node huffman decode output.txt table.txt result.txt
